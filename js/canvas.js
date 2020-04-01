@@ -95,6 +95,6 @@ document.addEventListener('keydown', function(e){
 function draw(){
 	console.log("I am going to draw!");
 	ctx.beginPath();
-	ctx.arc(x,y,10,0,2*Math.PI);
+	ctx.arc(x,y,radius,0,2*Math.PI);
 	ctx.fill();	
 }
